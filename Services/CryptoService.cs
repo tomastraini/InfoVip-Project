@@ -35,7 +35,7 @@ namespace InfoVip.Services
                                 select port).ToList();
             var result = new Currency();
             result.data = new Data();
-            result.data.coins = new List<Coins>();
+            result.data.coins = new List<Coins>();                  
             portfolioIDs.ForEach(x =>
             {
                 var resultapi = makeAPICall(x.id);
