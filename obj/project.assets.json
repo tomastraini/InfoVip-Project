@@ -3482,19 +3482,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TomasPC\\.nuget\\packages\\": {}
+    "C:\\Users\\ttraini002\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos desarrollo\\Proyectos nuevos\\InfoVip\\InfoVip.csproj",
+      "projectUniqueName": "C:\\Users\\ttraini002\\Downloads\\InfoVip-Project\\InfoVip.csproj",
       "projectName": "InfoVip",
-      "projectPath": "D:\\Proyectos desarrollo\\Proyectos nuevos\\InfoVip\\InfoVip.csproj",
-      "packagesPath": "C:\\Users\\TomasPC\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos desarrollo\\Proyectos nuevos\\InfoVip\\obj\\",
+      "projectPath": "C:\\Users\\ttraini002\\Downloads\\InfoVip-Project\\InfoVip.csproj",
+      "packagesPath": "C:\\Users\\ttraini002\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ttraini002\\Downloads\\InfoVip-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TomasPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ttraini002\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3502,7 +3502,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://artifacts-west.pwc.com/artifactory/api/nuget/v3/g00001-pwc-gx-jfrog-platform-nuget": {},
+        "https://artifacts-west.pwc.com/artifactory/api/nuget/v3/g00002-pwc-gx-gatt-nuget": {}
       },
       "frameworks": {
         "net6.0": {
@@ -3560,8 +3561,136 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\Apps\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.dependencyinjection\\buildTransitive\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.dependencyinjection\\lib\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.dependencyinjection\\package\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.dependencyinjection\\_rels\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging\\buildTransitive\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging\\lib\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging\\package\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging\\_rels\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging.abstractions\\analyzers\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging.abstractions\\buildTransitive\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging.abstractions\\lib\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging.abstractions\\package\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging.abstractions\\_rels\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.options\\buildTransitive\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.options\\lib\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.options\\package\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.options\\_rels\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.primitives\\buildTransitive\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.primitives\\lib\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.primitives\\package\" contiene una versión no válida."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "La carpeta \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.primitives\\_rels\" contiene una versión no válida."
+    }
+  ]
 }
