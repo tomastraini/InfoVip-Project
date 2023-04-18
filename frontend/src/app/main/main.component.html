@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Infovip crypto system</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" 
+            type="search" placeholder="Search" aria-label="Search"
+            [(ngModel)]="searchvalue" id="searchvalue" name="searchvalue">
+            <button class="btn btn-outline-danger" type="submit">
+                Search
+            </button>
+        </form>
+        </div>
+    </div>
+</nav>
+
+<div *ngIf="CryptoPrices == undefined" style="margin-left: 48%;" class="mt-5">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+
+<div *ngIf="CryptoPrices !== undefined">
+    <div class="pt-2 pl-5 ">
+        <label class="form-label">Input an amount to calculate price</label>
+        <input class="form-control w-25" [(ngModel)]="amount" (ngModelChange)="calculatePrice()">
+    </div>
+    <hr>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Coin</th>
+            <th scope="col">Price in USD</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let c of cryptoCoins | CoinsPipe: searchvalue">
+            <th scope="row">{{c.id}} </th>
+            <td>{{c.name}} </td>
+            <td>{{c.priceCalculated}} </td>
+            <td>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                data-bs-target="#convertCurrencyModal" (click)="onModalOpen()">
+                <i class="fa fa-dollar">
+
+                </i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
